@@ -1,0 +1,13 @@
+{
+  "thesis": "Facility location is a MILP; it beats nearest-site and its duals say what to expand.",
+  "open_sites": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "optimal_cost": 12004.3,
+  "savings_vs_nearest_site": 1137.6,
+  "matches_brute_force": true,
+  "site_to_expand": 1
+}

@@ -1,0 +1,7 @@
+{
+  "n_stages": 4,
+  "forecast_window": 5,
+  "lead_time": 2,
+  "customer_mean": 100.0,
+  "customer_std": 15.0
+}

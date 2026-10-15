@@ -1,0 +1,45 @@
+# supply_chain_arena — single source of parameters.
+# Everything is seeded so a fresh checkout reproduces every number.
+
+seed: 42
+
+demand:
+  stationary:
+    mean: 100.0
+    std: 20.0
+  seasonal:
+    mean: 100.0
+    amplitude: 40.0
+    period: 52
+    noise_std: 10.0
+  intermittent:
+    demand_prob: 0.3
+    demand_mean: 50.0
+    demand_std: 15.0
+
+newsvendor:
+  underage_cost: 3.0   # cost of a stockout (lost sale) per unit
+  overage_cost: 1.0    # cost of a leftover unit (write-off) per unit
+  demand_mean: 100.0
+  demand_std: 25.0
+
+eoq:
+  demand_rate: 1000.0  # units per period
+  order_cost: 50.0     # fixed cost per order
+  holding_cost: 2.0    # holding cost per unit per period
+
+safety_stock:
+  service_level: 0.95
+  lead_time: 4.0       # periods
+  review_period: 1.0   # periods
+  flat_weeks: 2.0      # the naive "N weeks of stock" rule
+
+facility_location:
+  n_sites: 5
+  n_customers: 8
+
+bullwhip:
+  n_stages: 4
+  n_periods: 200
+  forecast_window: 5
+  lead_time: 2

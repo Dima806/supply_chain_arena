@@ -1,0 +1,6 @@
+{
+  "thesis": "Optimal single-period stock is the critical-ratio quantile of demand, not the mean.",
+  "critical_ratio": 0.75,
+  "units_above_mean": 16.86,
+  "cost_left_by_stocking_to_mean": 8.12
+}

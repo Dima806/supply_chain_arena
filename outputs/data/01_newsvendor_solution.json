@@ -1,0 +1,8 @@
+{
+  "critical_ratio": 0.75,
+  "optimal_quantity": 116.86224375490204,
+  "optimal_cost": 31.777657272856803,
+  "mean_quantity": 100.0,
+  "mean_cost": 39.894228040143275,
+  "cost_gap": 8.116570767286472
+}

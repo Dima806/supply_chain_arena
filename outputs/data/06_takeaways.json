@@ -1,0 +1,14 @@
+{
+  "thesis": "Local order reactions amplify demand variance upstream; the chain needs a global view.",
+  "n_stages": 4,
+  "top_stage_amplification": 95.47,
+  "amplification_by_stage": [
+    1.0,
+    3.01,
+    10.76,
+    33.76,
+    95.47
+  ],
+  "driver_lead_time": "longer lead time increases amplification",
+  "driver_forecast_window": "more smoothing decreases amplification"
+}

@@ -1,0 +1,6 @@
+{
+  "underage_cost": 3.0,
+  "overage_cost": 1.0,
+  "demand_mean": 100.0,
+  "demand_std": 25.0
+}

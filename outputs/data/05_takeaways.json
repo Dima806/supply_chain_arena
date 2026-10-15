@@ -1,0 +1,8 @@
+{
+  "thesis": "Pooling safety stock upstream protects the network with less total inventory.",
+  "decentralized_safety_stock": 427.7,
+  "centralized_safety_stock": 178.9,
+  "inventory_saved": 248.7,
+  "pooling_factor": 0.418,
+  "service_at_equal_inventory": 1.0
+}

@@ -1,0 +1,8 @@
+{
+  "thesis": "Network flow is an LP with an exact optimum and interpretable shadow prices.",
+  "transportation_cost": 12090.8,
+  "transportation_conserved": true,
+  "transshipment_cost": 15690.8,
+  "transshipment_conserved": true,
+  "max_demand_shadow_price": 52.633
+}

@@ -1,0 +1,7 @@
+{
+  "thesis": "Safety stock ties to demand sigma, lead time, and service level; flat rules waste inventory.",
+  "distribution_total": 427.7,
+  "flat_total": 1200.0,
+  "inventory_saved": 772.3,
+  "service_level_check_max_error": 0.0012
+}
